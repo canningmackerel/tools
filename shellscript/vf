@@ -1,0 +1,3 @@
+#!/bin/bash
+
+vim $4 -c "sp $3" -c "vs $1" -c "wincmd j" -c "vs $2"
